@@ -1,4 +1,4 @@
-import kuromoji from "kuromoji";
+import kuromoji from "kuromoji-techtech";
 
 // Check where we are
 let isNode = false;

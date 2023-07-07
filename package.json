@@ -41,7 +41,6 @@
     },
     "homepage": "https://github.com/techtech-github/kuroshiro-analyzer-kuromoji",
     "dependencies": {
-        "kuromoji": "^0.1.1",
         "kuromoji-techtech": "^0.1.3"
     },
     "devDependencies": {
