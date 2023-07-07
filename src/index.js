@@ -20,8 +20,8 @@ class Analyzer {
         this._analyzer = null;
 
         if (!dictPath) {
-            if (isNode) this._dictPath = require.resolve("kuromoji").replace(/src(?!.*src).*/, "dict/");
-            else this._dictPath = "node_modules/kuromoji/dict/";
+            if (isNode) this._dictPath = require.resolve("kuromoji-techtech").replace(/src(?!.*src).*/, "dict/");
+            else this._dictPath = "node_modules/kuromoji-techtech/dict/";
         }
         else {
             this._dictPath = dictPath;
